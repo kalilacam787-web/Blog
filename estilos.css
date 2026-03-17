@@ -1,0 +1,102 @@
+/* IMPORTAR FUENTE MODERNA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; 
+    color: #2d3436;
+}
+
+/* ENCABEZADO CON DEGRADADO */
+header {
+    /* Corregido: La ruta ahora busca correctamente la carpeta Imagenes */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Imagenes/fondo_header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 0 0 20px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* MENÚ DE NAVEGACIÓN ESTILO BOTONES */
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav a {
+    text-decoration: none;
+    color: #636e72;
+    font-weight: 600;
+    padding: 8px 15px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #6c5ce7; /* El morado que querías */
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* CONTENIDO PRINCIPAL - Esto crea la caja blanca */
+article, section, main .content-box {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #6c5ce7; /* Título morado */
+    border-left: 5px solid #6c5ce7;
+    padding-left: 15px;
+}
+
+/* IMÁGENES CON ESTILO */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* PIE DE PÁGINA */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #2d3436;
+    color: white;
+    margin-top: 50px;
+}
+
+mark {
+    background-color: #ffeaa7;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
