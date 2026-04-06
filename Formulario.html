@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="index.html"> Ir al home</a>
+            </nav>
+        </header>
+        <h1>
+                    Únete a la comunidad de fans por la musica
+                </h1> 
+                <p>
+                    Completa el siguiente formulario para registrarte en nuestra comunidad de fans.
+
+                </p>
+                    <form>
+                        <label for="nombre">Nombre completo:</label>
+                        <br>
+                        <input type="text" id="nombre" name="nombre" required>
+                        <br>
+                        <br>
+                        <label for="email">Correo electrónico:</label>
+                        <br>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <br>                        
+                        <label for="edad">Edad:</label><br>
+                        <input type="number" id="edad" name="edad" min="10" max="100">
+                        <br>
+                        <br>
+                        <label for="pais">País:</label>
+                        <br>
+                        <input type="text" id="pais" name="pais">
+                        <br>
+                        <br>
+                        <label for="genero">Cual es tu genero musical favorito</label>
+                        <br>
+                        <select id="genero" name="musica">
+                            <option value="">
+                                Selecciona uno
+                            </option>
+                            <option value="Clasica">
+                                Musica Clasica
+                            </option>
+                            <option value="Rock">
+                               Rock
+                            </option>
+                            <option value="Salsa">
+                                Salsa
+                            </option>
+                            <option value="Cristiana">
+                                Cristiana
+                            </option>
+                            <option value="Pop">
+                                Pop
+                            </option>
+                        </select>
+
+                        <br><br>
+                        <label for="mensaje"> Como influye la musica que escuchas en tu dia a dia?</label>
+                        <br>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+                        <br><br>
+                        <input type="submit" value="Registrarse">
+                        <input type="reset" value="Limpiar formato">
+                        <br><br>
+
+
+                        <label for="mensaje"> Que es lo que mas te apasiona de la musica? </label>
+                        <br>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea>
+                        <br><br>
+                        <input type="submit" value="Registrarse">
+                        <input type="reset" value="Limpiar formato">
+
+                    </section>
+                </main>
+            </body>
+</html>
